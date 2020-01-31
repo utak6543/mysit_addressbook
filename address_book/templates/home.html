@@ -1,6 +1,30 @@
 {%extends 'base.html'%}
 <br>
 {% block content %}
-<h1>Hello world!</h1>
+<div class="container">
+  <div class="row">
+
+{% if all_address %}
+{% for records in all_address %}
+      <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+               <div class="card-body">
+                    <h5 class="card-title">{{records.name}}<br></h5>
+                    <p class="card-text">
+                        {{records.email}}<br>
+                       {{records.phone}}<br>
+                       {{records.address}}<br>
+                       {{records.city}}<br>
+                       {{records.state}}<br>
+                       {{records.pincode}}<br>
+            </p>
+            <a href="{% url 'edit' records.id %}" class="btn btn-primary">Edit address</a>
+          </div>
+       </div>
+        <br>
+     </div>
+{% endfor %}
+{% endif %}
+</div></div>
 {% endblock %}
 

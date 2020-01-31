@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Address_book Home</title>
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -28,6 +28,17 @@
 </nav>
     <br>
      <div class="container">
+         {% if messages%}
+         {% for message in messages %}
+             <div class="alert alert-warning alert-dismissible fade show" role="alert">
+               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+               <span aria-hidden="true"></span>
+               </button>
+
+                 {{ message }}
+             </div>
+         {% endfor %}
+         {% endif %}
          {% block content %}
          {% endblock %}
      </div>
