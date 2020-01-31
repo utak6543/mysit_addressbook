@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13e97c48-23fb-4652-b927-26c80d4fbfd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/address_book/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/address_book/templates/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/address_book/templates/add_address.html" beforeDir="false" afterPath="$PROJECT_DIR$/address_book/templates/add_address.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/address_book/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/address_book/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/address_book/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/address_book/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/address_book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/address_book/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/address_book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/address_book/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

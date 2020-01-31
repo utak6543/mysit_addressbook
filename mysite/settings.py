@@ -27,7 +27,7 @@ SECRET_KEY=config('SECRET_KEY')
 SECRET_KEY = '%5gk=8#ci1$(o!2-l_ipb)v03&axmj*4_%8*1hmco0&p4e&q0w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
